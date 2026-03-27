@@ -1,0 +1,19 @@
+External JavaScript (Save as script.js in the same folder)
+function externalFunction() {
+ alert("This is an External JavaScript Function!");
+}
+<html>
+<head>
+<script src="script.js"></script>
+<script>
+function internalFunction() {
+alert("This is an Internal JavaScript Function!");
+}
+</script>
+</head>
+<body>
+<h2>JavaScript Example</h2>
+<button onclick="internalFunction()">Click for Internal JS</button>
+<button onclick="externalFunction()">Click for External JS</button>
+</body>
+</html>
